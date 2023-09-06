@@ -31,7 +31,7 @@ const CreatePost = () => {
       try {
         setGeneratingImg(true);
         const response = await fetch(
-          "https://think-generate.onrender.com/api/v1/dalle",
+          "https://dallecloneserver-pcz4.onrender.com/api/v1/dalle",
          // "http://localhost:8080/api/v1/dalle",
           {
             method: "POST",
@@ -63,7 +63,7 @@ const CreatePost = () => {
       setLoading(true);
       try {
         const response = await fetch(
-          "https://think-generate.onrender.com/api/v1/post",
+          "https://dallecloneserver-pcz4.onrender.com/api/v1/post",
           {
             method: "POST",
             headers: {
